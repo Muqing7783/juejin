@@ -1,4 +1,4 @@
-# juejin-project
+# juejin
 
 ## Project setup
 ```
