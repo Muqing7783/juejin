@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavOne></NavOne>
+    <NavTwo></NavTwo>
+    <InfiniteScroll></InfiniteScroll>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import NavOne from "@/components/NavOne";
+import NavTwo from "@/components/NavTwo";
+import InfiniteScroll from "@/components/InfiniteScroll";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavOne,
+    NavTwo,
+    InfiniteScroll
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
